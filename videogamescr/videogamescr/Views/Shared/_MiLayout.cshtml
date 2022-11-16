@@ -17,13 +17,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Video Games CR", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Nombre de la aplicación", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Consultar Juegos", "Index", "CatalogoJuegos")</li>
                     <li>@Html.ActionLink("Ingresar Juego", "GuardarJuego", "CatalogoJuegos")</li>
-                    <li>@Html.ActionLink("Contacto", "Index", "CatalogoJuegos")</li>
+                    <li>@Html.ActionLink("Consultar Consolas", "Index", "CatalogoConsolas")</li>
+                    <li>@Html.ActionLink("Ingresar Consola", "GuardarConsola", "CatalogoConsolas")</li>
+                    <li>@Html.ActionLink("Consultar Accesorios", "Index", "CatalogoAccesorios")</li>
+                    <li>@Html.ActionLink("Ingresar Accesorio", "GuardarAccesorio", "CatalogoAccesorios")</li>
+                    <li>@Html.ActionLink("Empleados", "Index", "Empleados")</li>
                 </ul>
             </div>
         </div>
